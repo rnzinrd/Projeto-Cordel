@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'fontp' ;
+    src: url(__MACOSX/Sriracha-Regular.ttf)format('opentype');
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: 'fonth1';
+    src: url(__MACOSX/Passion_One/PassionOne-Bold.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    
+   
+}
+body{
+    size: 100vw;
+}
+
+header>h1{
+    font-size: 10vh;
+    font-family: 'fonth1';
+    margin-bottom: 0%;
+    margin-top: 10px;
+   padding-top: 50px;
+}
+header>p>a{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+header>p{
+    padding-bottom: 50px;
+}
+header>p>a:hover{
+    text-decoration: underline;
+}
+
+    section{
+        padding-top: 10vh;
+        padding-bottom: 10vh ;
+        font-size: 4vw;
+        line-height: 2em;
+        font-family: 'fontp';
+        padding: 30px;
+    }
+
+.normal{
+    background-color: white;
+    color: black;
+    
+    
+ 
+}
+
+    
+  
+div{
+    background-color: rgba(0, 0, 0, 0.459);
+    display: inline-block;
+   /*text-align: left;
+   color: white;  
+  position: relative;
+   left: 1%;
+   top: 3%;
+   
+   padding: 5px;*/
+   
+    
+}
+div>p{
+    color: white;
+    padding: 50px;
+}
+#p2{
+    height: 100vw;
+    background:black url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    
+    
+}
+#p4{
+    height: 75vw;
+    background: black url(imagens/background002.jpg) right center no-repeat  fixed ;
+    background-size: cover;}
